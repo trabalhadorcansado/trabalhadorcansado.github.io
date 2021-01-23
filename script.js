@@ -98,3 +98,8 @@ $(function() {
     $('#' + $(this).val()).show();
   });
 });
+
+$(function refreshPage() {
+  // window.location.href = window.location.href;
+  location.reload();
+});
