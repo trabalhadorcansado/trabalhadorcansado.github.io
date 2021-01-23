@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - APOSTAS UFC 257</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<label class="wrapper" for="states">MONTE SUA APOSTA</label>
+<div class="button dropdown"> 
+  <select id="colorselector">
+     <option value="default_nenhum">Escolha um card</option>
+     <option value="cardPreliminar">Preliminar (até 00h)</option>
+     <option value="cardPrincipal">Principal (após 00h)</option>
+  </select>
+</div>
+
+<div class="states">
+  <div id="cardPreliminar" class="colors red"> 
+      <div class="button dropdown"> 
+      <select id="preliminarselector">
+         <option value="default_nenhum">Escolha uma luta</option>
+         <option value="albazi_zhumagulov">Amir Albazi X Zhalgas Zhumagulov</option>
+         <option value="lentz_evloev">Nik Lentz X Movsar Evloev</option>
+         <option value="rountree_prachnio">Khalil Rountree X Marcin Prachnio</option>
+         <option value="pena_mcmann">Julianna Pena X Sara McMann</option>
+         <option value="tavares_junior">Brad Tavares X Antonio Carlos Junior</option>
+         <option value="tsarukyan_frevola">Arman Tsarukyan X Matt Frevola</option>
+         <option value="sanchez_muradov">Andrew Sanchez X Makhmud Muradov</option>
+      </select>
+    </div>
+ </div>
+  
+  
+  
+  
+  
+  <div id="cardPrincipal" class="colors yellow"> 
+      <div class="button dropdown"> 
+      <select id="principalselector">
+         <option value="default_nenhum">Escolha uma luta</option>
+         <option value="rodriguez_ribas">Marina Rodriguez X Amanda Ribas</option>
+         <option value="eye_calderwood">Jessica Eye X Joanne Calderwood</option>
+         <option value="hooker_chandler">Dan Hooker X Michael Chandler</option>
+         <option value="poirier_mcgregor">Dustin Poirier X Conor McGregor</option>
+      </select>
+    </div>
+ </div>
+  
+  
+  
+</div>
+
+
+<div class="states">
+  
+  <div id="albazi_zhumagulov" class="colors blue"> 
+      <div class="button dropdown"> 
+      <select id="winnerselector">
+         <option value="default_nenhum">Escolha um vencedor</option>
+         <option value="albazi">Amir Albazi (1.90)</option>
+         <option value="zhumagulov">Zhalgas Zhumagulov (1.90)</option>
+      </select>
+    </div>
+ </div>
+  
+  <div id="lentz_evloev" class="colors blue"> 
+      <div class="button dropdown"> 
+      <select id="winnerselector2">
+         <option value="default_nenhum">Escolha um vencedor</option>
+         <option value="lentz">Nik Lentz (5.00)</option>
+         <option value="evloev">Movsar Evloev (1.18)</option>
+      </select>
+    </div>
+ </div>
+  
+  <div id="rountree_prachnio" class="colors blue"> 
+      <div class="button dropdown"> 
+      <select id="winnerselector3">
+         <option value="default_nenhum">Escolha um vencedor</option>
+         <option value="rountree">Khalil Rountree (1.30)</option>
+         <option value="prachnio">Marcin Prachnio (3.50)</option>
+      </select>
+    </div>
+ </div>
+  
+  <div id="pena_mcmann" class="colors blue"> 
+      <div class="button dropdown"> 
+      <select id="winnerselector4">
+         <option value="default_nenhum">Escolha um vencedor</option>
+         <option value="pena">Julianna Pena (2.10)</option>
+         <option value="mcmann">Sara McMann (1.72)</option>
+      </select>
+    </div>
+ </div>
+  
+  <div id="tavares_junior" class="colors blue"> 
+      <div class="button dropdown"> 
+      <select id="winnerselector5">
+         <option value="default_nenhum">Escolha um vencedor</option>
+         <option value="tavares">Brad Tavares (1.80)</option>
+         <option value="junior">Antonio Carlos Junior (2.00)</option>
+      </select>
+    </div>
+ </div>
+  
+  <div id="tsarukyan_frevola" class="colors blue"> 
+      <div class="button dropdown"> 
+      <select id="winnerselector6">
+         <option value="default_nenhum">Escolha um vencedor</option>
+         <option value="tsarukyan">Arman Tsarukyan (1.14)</option>
+         <option value="frevola">Matt Frevola (6.00)</option>
+      </select>
+    </div>
+ </div>
+  
+  <div id="sanchez_muradov" class="colors blue"> 
+      <div class="button dropdown"> 
+      <select id="winnerselector7">
+         <option value="default_nenhum">Escolha um vencedor</option>
+         <option value="sanchez">Andrew Sanchez (2.25)</option>
+         <option value="muradov">Makhmud Muradov (1.66)</option>
+      </select>
+    </div>
+ </div>
+  
+  <div id="rodriguez_ribas" class="colors blue"> 
+      <div class="button dropdown"> 
+      <select id="winnerselector8">
+         <option value="default_nenhum">Escolha um vencedor</option>
+         <option value="rodriguez">Marina Rodriguez (3.50)</option>
+         <option value="ribas">Amanda Ribas (1.30)</option>
+      </select>
+    </div>
+ </div>
+  
+  <div id="eye_calderwood" class="colors blue"> 
+      <div class="button dropdown"> 
+      <select id="winnerselector9">
+         <option value="default_nenhum">Escolha um vencedor</option>
+         <option value="eye">Jessica Eye (2.00)</option>
+         <option value="calderwood">Joanne Calderwood (1.80)</option>
+      </select>
+    </div>
+ </div>
+  
+  <div id="hooker_chandler" class="colors blue"> 
+      <div class="button dropdown"> 
+      <select id="winnerselector10">
+         <option value="default_nenhum">Escolha um vencedor</option>
+         <option value="hooker">Dan Hooker (1.72)</option>
+         <option value="chandler">Michael Chandler (2.10)</option>
+      </select>
+    </div>
+ </div>
+  
+  <div id="poirier_mcgregor" class="colors blue"> 
+      <div class="button dropdown"> 
+      <select id="winnerselector11">
+         <option value="default_nenhum">Escolha um vencedor</option>
+         <option value="poirier">Dustin Poirier (3.50)</option>
+         <option value="mcgregor">Conor McGregor (1.30)</option>
+      </select>
+    </div>
+ </div>
+  
+  
+</div>
+
+
+
+
+<div class="output">
+  
+  <div id="albazi" class="prelim green">!albazi_1.90-1.90_zhumagulov albazi 200</div>
+  <div id="zhumagulov" class="prelim green">!albazi_1.90-1.90_zhumagulov zhumagulov 200</div>
+  
+  <div id="lentz" class="prelim green">!lentz_5.00-1.18_evloev lentz 200</div>
+  <div id="evloev" class="prelim green">!lentz_5.00-1.18_evloev evloev 200</div>
+  
+  <div id="rountree" class="prelim green">!rountree_1.30-3.50_prachnio rountree 200</div>
+  <div id="prachnio" class="prelim green">!rountree_1.30-3.50_prachnio prachnio 200</div>
+  
+  <div id="pena" class="prelim green">!pena_2.10-1.72_mcmann pena 200</div>
+  <div id="mcmann" class="prelim green">!pena_2.10-1.72_mcmann mcmann 200</div>
+  
+  <div id="tavares" class="prelim green">!tavares_1.80-2.00_junior tavares 200</div>
+  <div id="junior" class="prelim green">!tavares_1.80-2.00_junior junior 200</div>
+  
+  <div id="tsarukyan" class="prelim green">!tsarukyan_1.14-6.00_frevola tsarukyan 200</div>
+  <div id="frevola" class="prelim green">!tsarukyan_1.14-6.00_frevola frevola 200</div>
+  
+  <div id="sanchez" class="prelim green">!sanchez_2.25-1.66_muradov sanchez 200</div>
+  <div id="muradov" class="prelim green">!sanchez_2.25-1.66_muradov muradov 200</div>
+  
+  <div id="rodriguez" class="prelim green">!rodriguez_3.50-1.30_ribas rodriguez 200</div>
+  <div id="ribas" class="prelim green">!rodriguez_3.50-1.30_ribas ribas 200</div>
+  
+  <div id="eye" class="prelim green">!eye_2.00-1.80_calderwood eye 200</div>
+  <div id="calderwood" class="prelim green">!eye_2.00-1.80_calderwood calderwood 200</div>
+  
+  <div id="hooker" class="prelim green">!hooker_1.72-2.10_chandler hooker 200</div>
+  <div id="chandler" class="prelim green">!hooker_1.72-2.10_chandler chandler 200</div>
+  
+  <div id="poirier" class="prelim green">!poirier_3.50-1.30_mcgregor poirier 200</div>
+  <div id="mcgregor" class="prelim green">!poirier_3.50-1.30_mcgregor mcgregor 200</div>
+  
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
