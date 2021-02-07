@@ -30,6 +30,12 @@ $(function() {
 });
 
 $(function() {
+  $('#winnerselector1').change(function(){
+    $('.prelim').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+$(function() {
   $('#winnerselector2').change(function(){
     $('.prelim').hide();
     $('#' + $(this).val()).show();
@@ -98,4 +104,36 @@ $(function() {
     $('#' + $(this).val()).show();
   });
 });
+
+$(function() {
+  $('#winnerselector12').change(function(){
+    $('.prelim').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+
+$(function() {
+  $('#winnerselector13').change(function(){
+    $('.prelim').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+
+$(function() {
+  $('#winnerselector14').change(function(){
+    $('.prelim').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+
+$(function() {
+  $('#winnerselector15').change(function(){
+    $('.prelim').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+
+
+
+
 
