@@ -23,6 +23,46 @@ $(function() {
 });
 
 $(function() {
+  $('#principalselector1').change(function(){
+    $('.colors').hide();
+    $('.prelim').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+
+$(function() {
+  $('#principalselector2').change(function(){
+    $('.colors').hide();
+    $('.prelim').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+
+$(function() {
+  $('#principalselector3').change(function(){
+    $('.colors').hide();
+    $('.prelim').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+
+$(function() {
+  $('#principalselector4').change(function(){
+    $('.colors').hide();
+    $('.prelim').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+
+$(function() {
+  $('#principalselector5').change(function(){
+    $('.colors').hide();
+    $('.prelim').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+
+$(function() {
   $('#winnerselector').change(function(){
     $('.prelim').hide();
     $('#' + $(this).val()).show();
