@@ -22,6 +22,15 @@ $(function() {
   });
 });
 
+
+$(function() {
+  $('#esporteselectora').change(function(){
+    $('.colors').hide();
+    $('.prelim').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+
 $(function() {
   $('#principalselector1').change(function(){
     $('.colors').hide();
