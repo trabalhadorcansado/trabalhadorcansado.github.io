@@ -9,11 +9,14 @@
 <body>
 <!-- partial:index.partial.html -->
   <img src="https://i.ibb.co/k0cpphK/betting-bad-1.png" alt="odds" width=275 height=183>
+  <img src="https://i.ibb.co/SsTFMnp/20210802-bbb.jpg" alt="odds" width=1065 height=260>
+  <img src="https://i.ibb.co/gm9PCsT/20210802-nba.jpg" alt="odds" width=738 height=330>
 <label class="wrapper" for="states">MONTE SUA APOSTA</label>
 <div class="button dropdown"> 
   <select id="colorselector">
      <option value="default_nenhum">Escolha um evento</option>
      <option value="esporteBBB">BBB</option>
+     <option value="esporteNBA">NBA</option>
   </select>
 </div>
 
@@ -31,7 +34,15 @@
     </div>
  </div>
   
-  
+   <div id="esporteNBA" class="colors yellow"> 
+      <div class="button dropdown"> 
+      <select id="principalselector">
+         <option value="default_nenhum">Escolha uma linha</option>
+         <option value="wizards_bulls">Wizards X Bulls</option>
+         <option value="raptors_grizzlies">Raptors X Grizzlies</option>
+      </select>
+    </div>
+ </div> 
   
   
 </div>
@@ -44,12 +55,36 @@
       <div class="button dropdown"> 
       <select id="winnerselector1">
          <option value="default_nenhum">Escolha um vencedor</option>
-         <option value="arcrebiano">Arcrebiano (2.50)</option>
-         <option value="gilberto">Gilberto (2.8)</option>
-         <option value="juliette">Juliette (2.8)</option>
+         <option value="arcrebiano">Arcrebiano (2.80)</option>
+         <option value="gilberto">Gilberto (2.80)</option>
+         <option value="juliette">Juliette (2.80)</option>
       </select>
     </div>
  </div>
+ 
+ 
+    <div id="wizards_bulls" class="colors blue"> 
+      <div class="button dropdown"> 
+      <select id="winnerselector2">
+         <option value="default_nenhum">Escolha um vencedor</option>
+         <option value="wizards">Wizards (2.25)</option>
+         <option value="bulls">Bulls (1.68)</option>
+      </select>
+    </div>
+ </div>
+ 
+ 
+    <div id="raptors_grizzlies" class="colors blue"> 
+      <div class="button dropdown"> 
+      <select id="winnerselector3">
+         <option value="default_nenhum">Escolha um vencedor</option>
+         <option value="raptors">Raptors (1.71)</option>
+         <option value="grizzlies">Grizzlies (2.20)</option>
+      </select>
+    </div>
+ </div>
+  
+  
   
   
   
@@ -64,6 +99,12 @@
   <div id="arcrebiano" class="prelim green">!bbb arcrebiano 200</div>
   <div id="gilberto" class="prelim green">!bbb gilberto 200</div>
   <div id="juliette" class="prelim green">!bbb juliette 200</div>
+  
+  <div id="wizards" class="prelim green">!wizards_bulls wizards 200</div>
+  <div id="bulls" class="prelim green">!wizards_bulls bulls 200</div>
+  
+  <div id="raptors" class="prelim green">!raptors_grizzlies raptors 200</div>
+  <div id="grizzlies" class="prelim green">!raptors_grizzlies grizzlies 200</div>
   
 </div>
   
