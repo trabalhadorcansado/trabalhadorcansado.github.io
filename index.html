@@ -9,12 +9,12 @@
 <body>
 <!-- partial:index.partial.html -->
   <img src="https://i.ibb.co/3vDcJNV/20210207-Sorteio.jpg" alt="odds" width=969 height=268>
-  <img src="https://i.ibb.co/PC2bSGc/20210207-Super-Bowl.jpg" alt="odds" width=1360 height=426>
 <label class="wrapper" for="states">MONTE SUA APOSTA</label>
 <div class="button dropdown"> 
   <select id="colorselector">
      <option value="default_nenhum">Escolha um evento</option>
      <option value="esporteSB">Super Bowl</option>
+     <option value="esporteBBB">Super Bowl</option>
   </select>
 </div>
 
@@ -33,58 +33,31 @@
  </div>
   
   
+  <div id="esporteBBB" class="colors yellow"> 
+      <div class="button dropdown"> 
+      <select id="principalselector">
+         <option value="default_nenhum">Escolha uma linha</option>
+         <option value="eliminado">Eliminado</option>
+      </select>
+    </div>
+ </div>
+  
+  
+  
   
 </div>
 
 
 <div class="states">
  
-    <div id="vitoria" class="colors blue"> 
+ 
+    <div id="eliminado" class="colors blue"> 
       <div class="button dropdown"> 
       <select id="winnerselector1">
          <option value="default_nenhum">Escolha um vencedor</option>
-         <option value="vit_chiefs">KC Chiefs (1.74)</option>
-         <option value="vit_buccaneers">TB Buccaneers (2.15)</option>
-      </select>
-    </div>
- </div>
- 
-    <div id="pri_quarto" class="colors blue"> 
-      <div class="button dropdown"> 
-      <select id="winnerselector2">
-         <option value="default_nenhum">Escolha um vencedor</option>
-         <option value="pri_chiefs">KC Chiefs (1.74)</option>
-         <option value="pri_buccaneers">TB Buccaneers (2.15)</option>
-      </select>
-    </div>
- </div>
- 
-    <div id="seg_quarto" class="colors blue"> 
-      <div class="button dropdown"> 
-      <select id="winnerselector3">
-         <option value="default_nenhum">Escolha um vencedor</option>
-         <option value="seg_chiefs">KC Chiefs (1.62)</option>
-         <option value="seg_buccaneers">TB Buccaneers (2.30)</option>
-      </select>
-    </div>
- </div>
- 
-    <div id="ter_quarto" class="colors blue"> 
-      <div class="button dropdown"> 
-      <select id="winnerselector4">
-         <option value="default_nenhum">Escolha um vencedor</option>
-         <option value="ter_chiefs">KC Chiefs (1.62)</option>
-         <option value="ter_buccaneers">TB Buccaneers (2.30)</option>
-      </select>
-    </div>
- </div>
- 
-    <div id="qua_quarto" class="colors blue"> 
-      <div class="button dropdown"> 
-      <select id="winnerselector5">
-         <option value="default_nenhum">Escolha um vencedor</option>
-         <option value="qua_chiefs">KC Chiefs (1.68)</option>
-         <option value="qua_buccaneers">TB Buccaneers (2.15)</option>
+         <option value="arcrebiano">Arcrebiano (2.50)</option>
+         <option value="gilberto">Gilberto (2.8)</option>
+         <option value="juliette">Juliette (2.8)</option>
       </select>
     </div>
  </div>
@@ -99,20 +72,9 @@
 
 <div class="output">
   
-  <div id="pri_chiefs" class="prelim green">!primeiro chiefs 200</div>
-  <div id="pri_buccaneers" class="prelim green">!primeiro buccaneers 200</div>
-  
-  <div id="seg_chiefs" class="prelim green">!segundo chiefs 200</div>
-  <div id="seg_buccaneers" class="prelim green">!segundo buccaneers 200</div>
-  
-  <div id="ter_chiefs" class="prelim green">!terceiro chiefs 200</div>
-  <div id="ter_buccaneers" class="prelim green">!terceiro buccaneers 200</div>
-  
-  <div id="qua_chiefs" class="prelim green">!quarto chiefs 200</div>
-  <div id="qua_buccaneers" class="prelim green">!quarto buccaneers 200</div>
-  
-  <div id="vit_chiefs" class="prelim green">!vitoria chiefs 200</div>
-  <div id="vit_buccaneers" class="prelim green">!vitoria buccaneers 200</div>
+  <div id="arcrebiano" class="prelim green">!bbb arcrebiano 200</div>
+  <div id="gilberto" class="prelim green">!bbb gilberto 200</div>
+  <div id="juliette" class="prelim green">!bbb juliette 200</div>
   
 </div>
   
