@@ -12,7 +12,7 @@
   <img src="https://i.ibb.co/k0cpphK/betting-bad-1.png" alt="odds" width=275 height=183>
 </div>
 <div>
-  <img src="https://i.ibb.co/SsChn7q/20210209-nba.jpg" alt="odds" width=721 height=315>
+  <img src="https://i.ibb.co/hCLr0fQ/20210210-nba.jpg" alt="odds" width=698 height=355>
 </div>
 <label class="wrapper" for="states">MONTE SUA APOSTA</label>
 <div class="button dropdown"> 
@@ -31,8 +31,10 @@
       <div class="button dropdown"> 
       <select id="esporteselectora">
          <option value="default_nenhum">Escolha uma linha</option>
-         <option value="warriors_spurs">Warriors X Spurs</option>
-         <option value="76ers_kings">76ers X Kings</option>
+         <option value="bulls_pelicans">Bulls X Pelicans</option>
+         <option value="hawks_mavericks">Hawks X Mavericks</option>
+         <option value="hornets_grizzlies">Hornets X Grizzlies</option>
+         <option value="cavaliers_nuggets">Cavaliers X Nuggets</option>
       </select>
     </div>
  </div> 
@@ -45,23 +47,45 @@
  
  
  
-  <div id="warriors_spurs" class="colors blue"> 
+  <div id="bulls_pelicans" class="colors blue"> 
     <div class="button dropdown"> 
-    <select id="winnerselector2">
+    <select id="winnerselector1">
        <option value="default_nenhum">Escolha um vencedor</option>
-       <option value="warriors">Warriors (2.00)</option>
-       <option value="spurs">Spurs (1.83)</option>
+       <option value="bulls">Bulls (2.25)</option>
+       <option value="pelicans">Pelicans (1.68)</option>
     </select>
   </div>
 </div>
  
  
-  <div id="76ers_kings" class="colors blue"> 
+  <div id="hawks_mavericks" class="colors blue"> 
+    <div class="button dropdown"> 
+    <select id="winnerselector2">
+       <option value="default_nenhum">Escolha um vencedor</option>
+       <option value="hawks">Hawks (2.60)</option>
+       <option value="mavericks">Mavericks (1.55)</option>
+    </select>
+  </div>
+</div>
+ 
+ 
+  <div id="hornets_grizzlies" class="colors blue"> 
     <div class="button dropdown"> 
     <select id="winnerselector3">
        <option value="default_nenhum">Escolha um vencedor</option>
-       <option value="76ers">76ers (1.55)</option>
-       <option value="kings">Kings (2.60)</option>
+       <option value="hornets">Hornets (2.55)</option>
+       <option value="grizzlies">Grizzlies (1.58)</option>
+    </select>
+  </div>
+</div>
+ 
+ 
+  <div id="cavaliers_nuggets" class="colors blue"> 
+    <div class="button dropdown"> 
+    <select id="winnerselector4">
+       <option value="default_nenhum">Escolha um vencedor</option>
+       <option value="cavaliers">Cavaliers (4.50)</option>
+       <option value="nuggets">Nuggets (1.22)</option>
     </select>
   </div>
 </div>
@@ -78,15 +102,17 @@
 
 <div class="output">
   
-  <div id="arcrebiano" class="prelim green">!bbb arcrebiano 200</div>
-  <div id="gilberto" class="prelim green">!bbb gilberto 200</div>
-  <div id="juliette" class="prelim green">!bbb juliette 200</div>
+  <div id="bulls" class="prelim green">!bulls_pelicans bulls 200</div>
+  <div id="pelicans" class="prelim green">!bulls_pelicans pelicans 200</div>
   
-  <div id="warriors" class="prelim green">!warriors_spurs warriors 200</div>
-  <div id="spurs" class="prelim green">!warriors_spurs spurs 200</div>
+  <div id="hawks" class="prelim green">!hawks_mavericks hawks 200</div>
+  <div id="mavericks" class="prelim green">!hawks_mavericks mavericks 200</div>
   
-  <div id="76ers" class="prelim green">!76ers_kings 76ers 200</div>
-  <div id="kings" class="prelim green">!76ers_kings kings 200</div>
+  <div id="hornets" class="prelim green">!hornets_grizzlies hornets 200</div>
+  <div id="grizzlies" class="prelim green">!hornets_grizzlies grizzlies 200</div>
+  
+  <div id="cavaliers" class="prelim green">!cavaliers_nuggets cavaliers 200</div>
+  <div id="nuggets" class="prelim green">!cavaliers_nuggets nuggets 200</div>
   
 </div>
   
