@@ -50,6 +50,26 @@ $(function() {
 });
 
 
+$(function() {
+  $('#esporteselectord').change(function(){
+    $('.colors').hide();
+    $('.prelim').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+});
+
+
+$(function() {
+  $('#esporteselectore').change(function(){
+    $('.colors').hide();
+    $('.prelim').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+});
+
+
 
 $(function() {
   $('#winnerselector').change(function(){
@@ -161,6 +181,116 @@ $(function() {
     $('#' + $(this).val()).show();
   });
 });
+
+$(function() {
+  $('#winnerselector16').change(function(){
+    $('.prelim').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+
+$(function() {
+  $('#winnerselector17').change(function(){
+    $('.prelim').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+
+$(function() {
+  $('#winnerselector18').change(function(){
+    $('.prelim').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+
+$(function() {
+  $('#winnerselector19').change(function(){
+    $('.prelim').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+
+$(function() {
+  $('#winnerselector20').change(function(){
+    $('.prelim').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+
+$(function() {
+  $('#winnerselector21').change(function(){
+    $('.prelim').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+
+$(function() {
+  $('#winnerselector22').change(function(){
+    $('.prelim').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+
+$(function() {
+  $('#winnerselector23').change(function(){
+    $('.prelim').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+
+$(function() {
+  $('#winnerselector24).change(function(){
+    $('.prelim').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+
+$(function() {
+  $('#winnerselector25').change(function(){
+    $('.prelim').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+
+$(function() {
+  $('#winnerselector26').change(function(){
+    $('.prelim').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+
+$(function() {
+  $('#winnerselector27').change(function(){
+    $('.prelim').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+
+$(function() {
+  $('#winnerselector28').change(function(){
+    $('.prelim').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+
+$(function() {
+  $('#winnerselector29').change(function(){
+    $('.prelim').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+
+$(function() {
+  $('#winnerselector30').change(function(){
+    $('.prelim').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+
+
+
+
+
 
 
 
