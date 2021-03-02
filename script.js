@@ -37,7 +37,8 @@ $(function() {
     $('.colors').hide();
     $('.prelim').hide();
     $('#' + $(this).val()).show();
-  });
+  }); 
+});
 
 
 $(function() {
@@ -46,7 +47,6 @@ $(function() {
     $('.prelim').hide();
     $('#' + $(this).val()).show();
   });
-});
 });
 
 
@@ -57,7 +57,6 @@ $(function() {
     $('#' + $(this).val()).show();
   });
 });
-});
 
 
 $(function() {
@@ -66,7 +65,6 @@ $(function() {
     $('.prelim').hide();
     $('#' + $(this).val()).show();
   });
-});
 });
 
 
@@ -84,6 +82,7 @@ $(function() {
     $('#' + $(this).val()).show();
   });
 });
+
 $(function() {
   $('#winnerselector2').change(function(){
     $('.prelim').hide();
