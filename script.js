@@ -238,7 +238,7 @@ $(function() {
 });
 
 $(function() {
-  $('#winnerselector24).change(function(){
+  $('#winnerselector24').change(function(){
     $('.prelim').hide();
     $('#' + $(this).val()).show();
   });
